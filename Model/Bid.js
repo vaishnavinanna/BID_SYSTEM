@@ -1,4 +1,4 @@
-require('@dotenvx/dotenvx').config({ path: '../.env' });
+require('@dotenvx/dotenvx').config({ path: '.env' });
 const mongoose = require('mongoose');
 const Bids = process.env.CL_BID;
 const Users = process.env.CL_USER;

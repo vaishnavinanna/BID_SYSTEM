@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-require('@dotenvx/dotenvx').config({ path: '../.env' });
+require('@dotenvx/dotenvx').config({ path: '.env' });
 
 const collectionName=process.env.CL_LOGIN
 
